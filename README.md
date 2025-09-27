@@ -1,16 +1,116 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌏 World's Timer
 
-Currently, two official plugins are available:
+A **React + TailwindCSS** world clock application that shows the current time in multiple countries using `moment-timezone`.
+This app updates every second and supports various time zones across the globe.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Live Demo
+🔗 [World's Timer App](https://worlds-timer-react.netlify.app/)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🕒 Shows live time for multiple countries.
+- 🌍 Supports different time zones with **moment-timezone**.
+- 📅 Updates time every second.
+- 🎨 Stylish UI built with TailwindCSS.
+- 📱 Fully responsive design.
+
+---
+
+## 🛠️ Tech Stack
+- **React 18** (Frontend framework)
+- **TailwindCSS** (UI styling)
+- **moment-timezone** (Timezone handling)
+- **Vite** (Build tool)
+- **Netlify / Vercel** (Deployment)
+
+---
+
+## 📂 Folder Structure
+
+```
+
+src/\
+├─ App.jsx # Main application component\
+├─ main.jsx # React entry point\
+├─ index.css # TailwindCSS & global styles\
+└─ assets/ # Static files (optional)
+
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/worlds-timer.git
+cd worlds-timer
+
+```
+
+### 2️⃣ Install dependencies
+
+```
+npm install
+
+```
+
+### 3️⃣ Run development server
+
+```
+npm run dev
+
+```
+
+Open [http://localhost:5173](http://localhost:5173/) to view your app.
+
+* * * * *
+
+🎮 Usage
+--------
+
+1.  Open the app.
+
+2.  The current time for all predefined countries will appear.
+
+3.  Time updates every second.
+
+* * * * *
+
+📦 Build for Production
+-----------------------
+
+```
+npm run build
+
+```
+
+* * * * *
+
+📸 Screenshots
+--------------
+<img width="1358" height="512" alt="image" src="https://github.com/user-attachments/assets/d099171b-3823-45e5-853b-f7455dfd4b7c" />
+<img width="1348" height="584" alt="image" src="https://github.com/user-attachments/assets/faa3f350-d970-4bd6-a233-c8c7c19f3c47" />
+
+
+* * * * *
+
+🙌 Credits
+----------
+
+-   Timezone data powered by **moment-timezone**.
+
+-   Styling with **TailwindCSS**.
+
+* * * * *
+
+📝 License
+----------
+
+This project is licensed under the **MIT License**.
+
