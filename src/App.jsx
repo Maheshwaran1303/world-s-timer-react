@@ -16,8 +16,7 @@ const countries = [
   { countryName: "Russia (Moscow)", timezone: "Europe/Moscow" },
   { countryName: "South Africa", timezone: "Africa/Johannesburg" },
   { countryName: "United Kingdom", timezone: "Europe/London" },
-  { countryName: "United States (New York)", timezone: "America/New_York" },
-  { countryName: "United States (Los Angeles)", timezone: "America/Los_Angeles" }
+  { countryName: "United States (New York)", timezone: "America/New_York" }
 ];
 
 
